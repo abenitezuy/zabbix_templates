@@ -15,6 +15,9 @@ The "WMI Querys" template includes the following items:
 * **WMI: OS Install Date:** Retrieves the date and time when the operating system was installed.
 * **WMI: Operating System Architecture:** Indicates the operating system architecture (e.g., "64-bit").
 * **WMI: Operating System Version:** Displays the main version of the operating system (e.g., "10.0").
+
+![{BFB5C107-A015-4E31-87D4-E7E23EA676E3}](https://github.com/user-attachments/assets/50dc7941-43e2-4431-abb9-7ab3e84926e8)
+
 .....
 
 All items have a data collection interval of **5 minutes**. Historical data is not saved (`trends: '0'`) for text items (Caption, Last Boot Time, Service Pack, Install Date, Architecture, Version) to save space in the Zabbix database. Disk free space does store trends for analysis over time.
