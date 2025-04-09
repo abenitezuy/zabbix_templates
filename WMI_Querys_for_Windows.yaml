@@ -1,3 +1,10 @@
+# Template: WMI_Querys_for_Windows
+# Autor: Alejandro Benítez
+# Fecha de publicación: 11/04/2025
+# GitHub: https://github.com/abenitezuy
+# Email: ale@sencilloit.com
+# Descripción: Este template realiza consultas WMI básicas en Windows Server 2016+ 
+#              utilizando el agente de Zabbix. Incluye métricas de servicios, SO y disco.
 zabbix_export:
   version: '6.0'
   date: '2025-04-09T00:02:09Z'
