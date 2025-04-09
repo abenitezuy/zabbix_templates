@@ -3,13 +3,13 @@ zabbix_export:
   date: '2025-04-09T00:02:09Z'
   groups:
     - uuid: 1096d6c59229478793db3a0a43a05678
-      name: 'Windows Servers Prod'
+      name: 'All my Windows Servers'
   templates:
     - uuid: e6efbd95ee0e4c35a517d48205afccbe
       template: 'WMI Querys'
       name: 'WMI Querys'
       groups:
-        - name: 'Windows Servers Prod'
+        - name: 'All my Windows Servers'
       items:
         - uuid: 1f6c6ab6038f457c995b35ca2ae95ea0
           name: 'WMI: Operating System Caption'
